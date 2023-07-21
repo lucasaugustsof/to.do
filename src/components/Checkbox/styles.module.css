@@ -1,0 +1,47 @@
+.container {
+  width: 1.5rem;
+  height: 1.5rem;
+
+  flex-shrink: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+
+  cursor: pointer;
+
+  background: none;
+}
+
+.container > div {
+  width: 1.125rem;
+  height: 1.125rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1.5px solid var(--blue);
+  border-radius: 50%;
+}
+
+.container > div svg {
+  fill: var(--gray-100);
+}
+
+.container:hover > div {
+  border-color: var(--blue-dark);
+  background-color: rgba(30, 111, 159, 0.2);
+}
+
+.container > div[data-checked=true] {
+  border-color: var(--purple-dark);
+  background-color: var(--purple-dark);
+}
+
+.container:hover > div[data-checked=true] {
+  border-color: var(--purple);
+  background-color: var(--purple);
+}

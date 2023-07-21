@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container header {
+  height: 12.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--gray-700);
+}
+
+.container main {
+  max-width: 46rem;
+  margin: 0 auto;
+
+  padding: 0 1rem;
+}
+
+.container main ul {
+  display: flex;
+  flex-direction: column;
+
+  gap: .75rem;
+}

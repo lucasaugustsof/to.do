@@ -1,0 +1,27 @@
+.container {
+  flex: 1;
+  padding: 1rem;
+
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+
+  font-weight: 400;
+  color: var(--gray-100);
+
+  line-height: 1.4;
+
+  caret-color: var(--gray-100);
+
+  background-color: var(--gray-500);
+}
+
+.container::placeholder {
+  font-weight: 400;
+  color: var(--gray-300);
+
+  line-height: 1.4;
+}
+
+.container:valid {
+  border-color: var(--purple);
+}

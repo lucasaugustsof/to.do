@@ -1,0 +1,18 @@
+.container {
+  padding: 4rem 1.5rem;
+
+  display: flex;
+  flex-direction: column;
+  justfy-content: center;
+  align-items: center;
+
+  border-top: 1px solid var(--gray-400);
+}
+
+.container span {
+  font-weight: 400;
+  color: var(--gray-300);
+
+  text-align: center;
+  line-height: 1.4;
+}
