@@ -11,7 +11,7 @@ export const Form: React.FC<FormProps> = ({ children, ...props }) => {
     <form className={styles.container} {...props}>
       {children}
 
-      <button>
+      <button data-testid="test:create-button">
         Criar
         <PlusCircle size={16} weight="bold" />
       </button>

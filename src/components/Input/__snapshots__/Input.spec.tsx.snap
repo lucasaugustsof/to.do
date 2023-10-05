@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Components/Input > should render the Form component correctly 1`] = `
+<DocumentFragment>
+  <input
+    class="_container_2e074e"
+    placeholder="Adicione uma nova tarefa"
+    type="text"
+  />
+</DocumentFragment>
+`;

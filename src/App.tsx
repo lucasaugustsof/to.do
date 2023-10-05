@@ -87,13 +87,14 @@ const App: React.FC = () => {
             value={taskName}
             onInvalid={handleFieldInvalidation}
             required
+            data-testid="test:input"
           />
         </Form>
 
         <Quantities created={tasks.length} completed={completedTasks.length} />
 
         {tasks.length ? (
-          <ul>
+          <ul data-testid="test:task-list">
             {tasks.map((task) => (
               <TaskItem
                 key={task.id}
@@ -104,7 +105,7 @@ const App: React.FC = () => {
             ))}
           </ul>
         ) : (
-          <EmptyList />
+          <EmptyList testID="test:empty-list" />
         )}
       </main>
     </div>

@@ -7,12 +7,14 @@ import { Checkbox } from '../Checkbox'
 import styles from './styles.module.css'
 
 interface TaskItemProps {
+  testID?: string
   title: string
   onCompleteTask(): void
   onDeleteTask(): void
 }
 
 export const TaskItem: React.FC<TaskItemProps> = ({
+  testID,
   title,
   onCompleteTask,
   onDeleteTask,
@@ -26,7 +28,7 @@ export const TaskItem: React.FC<TaskItemProps> = ({
   }
 
   return (
-    <li className={styles.container}>
+    <li className={styles.container} data-testid={testID}>
       <div>
         <Checkbox onClick={handleCheckChange} checked={isChecked} />
 

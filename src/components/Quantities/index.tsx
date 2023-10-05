@@ -2,17 +2,19 @@ import React from 'react'
 
 import styles from './styles.module.css'
 
-interface InformationProps {
+interface QuantitiesProps {
+  testID?: string
   created?: number
   completed?: number
 }
 
-export const Quantities: React.FC<InformationProps> = ({
+export const Quantities: React.FC<QuantitiesProps> = ({
+  testID,
   created = 0,
   completed = 0,
 }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid={testID}>
       <div>
         <strong>Tarefas criadas</strong>
 
