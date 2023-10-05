@@ -77,7 +77,7 @@ const App: React.FC = () => {
   return (
     <div className={styles.container}>
       <header>
-        <img src={logoSvg} alt="Logomarca do to.do" />
+        <img src={logoSvg} alt="" />
       </header>
 
       <main>
