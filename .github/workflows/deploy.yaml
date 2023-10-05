@@ -1,9 +1,9 @@
 name: Deploy
 
 on:
-  push:
+  pull_request:
     branches:
-      ci/deploy-flow
+      main
 
 jobs:
   build:
