@@ -2,9 +2,13 @@ import React from 'react'
 
 import styles from './styles.module.css'
 
-export const EmptyList: React.FC = () => {
+interface EmptyListProps {
+  testID?: string
+}
+
+export const EmptyList: React.FC<EmptyListProps> = ({ testID }) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid={testID}>
       <span>
         <strong>Você ainda não tem tarefas cadastradas</strong>
         <br />
