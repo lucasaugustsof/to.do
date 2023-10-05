@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Components/EmptyList > should render the EmptyList component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_container_4b25f8"
+  >
+    <span>
+      <strong>
+        Você ainda não tem tarefas cadastradas
+      </strong>
+      <br />
+      Crie tarefas e organize seus itens a fazer
+    </span>
+  </div>
+</DocumentFragment>
+`;

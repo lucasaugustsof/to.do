@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Components/Quantities > should render the Quantities component correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="_container_91d335"
+  >
+    <div>
+      <strong>
+        Tarefas criadas
+      </strong>
+      <span
+        class="_counter_91d335"
+      >
+        0
+      </span>
+    </div>
+    <div>
+      <strong>
+        Concluídas
+      </strong>
+      <span
+        class="_counter_91d335"
+      >
+        0
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
